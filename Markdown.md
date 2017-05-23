@@ -100,3 +100,42 @@ Write To A File
 echo "some data for the file" > fileName.txt
 #This would write "some data for the file" into fileName.txt
 ```
+Debugging Your Code
+===
+Console.count()
+---
+Logs the number of times that this particular call to count() has been called. This function takes in an optional argument label1. If label is omitted, the function logs the number of times count() has been called at this particular line.
+
+```bash
+var count = (function() {
+  var counter = {};
+  return function(v) {
+    return (counter[v] = (counter[v] || 0) + 1);
+  }
+}());
+
+console.log('foo', count('foo'));
+console.log('foo', count('foo'));
+console.log('bar', count('bar'));
+```
+Console.assert()
+---
+The console.assert() method takes two parameters, a boolean expression, and an object. If the result of the expression is false the object will be printed in the console. In the example below, the expression here checks to see if the count variable is larger than 10. If it’s not, the message ‘count is not larger than 10’ is printed in the console.
+
+```bash
+var count = 5;
+console.assert(count > 10,'count is not larger than 10')
+#Assertion failed: count is not larger than 10
+```
+Console.error()
+---
+The console.error() method takes one or more objects and prints them to the console. This method is similar to console.log() however console.error() will also print a stack trace from where the method was called. The output will also be flagged as an error in the console.
+
+```bash
+function findPage(){
+  console.error('Page not found (404)');
+}
+undefined
+findPage()
+#Page not found 404
+```
