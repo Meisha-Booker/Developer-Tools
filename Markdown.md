@@ -139,3 +139,48 @@ undefined
 findPage()
 #Page not found 404
 ```
+Get Good at Git and GitHub
+===
+[Sandbox GitHub repository link]((https://daringfireball.net/projects/markdown/)
+Git commands
+---
+```bash
+$ git clone https://www.cloned-repo-url.command
+# This will create a folder with cloned project in current directory.
+$ git add nameOfFileBeingStaged.txt
+# will stage changes for commit nameOfFileBeingStaged.txt
+$ git reset nameOfFileBeingStaged.txt
+# will unstage nameOfFileBeingStaged.txt
+$ git commit -m "Your message here"
+# Will commit and add message to commit
+$ git commit --amend
+# Convenient way to fix up the most recent commit. It lets you combine staged changes with the previous commit instead of committing again
+$ git branch branchhNameHere
+# This will create branch branchhNameHere
+$ git branch -d branchhNameHere
+# THis will delete branch branchhNameHere
+$ git push
+# This will push up committed changes.
+$ git pull
+# This will update local and incorporate changes
+$ git push alias branchhNameHere
+# Uploads all local branch commits to GitHub
+$ git reset --hard [commit]
+# This will delete commits after specified [commit]
+$ git rebase [branch]
+# Move branch to new base commit
+$ git rebase -i [branch]
+# Opens editor with list of commits and allows user to edit before initiating the rebase.
+$ git cherry-pick master
+# Chery picking means to choose a commit from one branch and apply it to another.
+```
+Typing
+---
+Jose Moreno - WPM
+Meisha Booker - WPM
+
+
+
+
+
+```
