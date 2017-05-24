@@ -176,11 +176,27 @@ $ git cherry-pick master
 ```
 Typing
 ---
-Jose Moreno - WPM
-Meisha Booker - WPM
+```bash
+Jose Moreno:  
+Type.io - 34, 35, and 35 WPM
 
-
-
-
-
+Meisha Booker:
+Type.io - 19, 18, and 17 WPM
 ```
+Master Your Editor
+---
+A text editor is a program for editing stored documents, performing such functions as adding, deleting, or moving text. The 5 most used editors for software developers are: Atom, UltraEdit, Sublime Text, Notepad++ , and CoffeCup.
+```bash
+Favorite Features of Atom
+
+1. Multi/Split Screens
+2. Package Installer
+3. Tree View of your folder and files
+4. Customization with color
+
+Favorite Plugins of Atom
+
+1. Markdown Preview
+2. HTML Preview
+3. Merge Conflicts
+```  
