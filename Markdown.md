@@ -175,7 +175,7 @@ $ git cherry-pick master
 # Chery picking means to choose a commit from one branch and apply it to another.
 ```
 Typing
----
+===
 ```bash
 Jose Moreno:  
 Type.io - 34, 35, and 35 WPM
@@ -184,19 +184,55 @@ Meisha Booker:
 Type.io - 19, 18, and 17 WPM
 ```
 Master Your Editor
----
+===
 A text editor is a program for editing stored documents, performing such functions as adding, deleting, or moving text. The 5 most used editors for software developers are: Atom, UltraEdit, Sublime Text, Notepad++ , and CoffeCup.
 ```bash
 Favorite Features of Atom
+---
 
 1. Multi/Split Screens
+# Allows user to place code side by side horizontally or vertically in many fashions.
 2. Package Installer
+#  Allows the installation of third party plugins.
 3. Tree View of your folder and files
+# Makes viewing your file structure easy and quick.
 4. Customization with color
+# Customize your atom editor to suit your taste.
 
 Favorite Plugins of Atom
-
+---
 1. Markdown Preview
+# Allows the live preview of markdown code.
 2. HTML Preview
+# Allows the live preview of html code.
 3. Merge Conflicts
+# Facilitates solving merge conflicts.
 ```  
+Homebrew
+===
+Homebrew installs the stuff you need that Apple didn’t.
+```bash
+$ brew install wget
+#Example installation of wget.
+```
+Homebrew installs packages to their own directory and then symlinks their files into /usr/local.
+```bash
+
+$ cd /usr/local
+$ find Cellar
+Cellar/wget/1.16.1
+Cellar/wget/1.16.1/bin/wget
+Cellar/wget/1.16.1/share/man/man1/wget.1
+
+$ ls -l bin
+bin/wget -> ../Cellar/wget/1.16.1/bin/wget
+```
+Here's a link to our [favorite brew packages.](https://gist.github.com/josemoreno90/85d55d67e0f1a538a75b6154c471cfd3).
+
+Dotfiles
+===
+In git repos, dotfiles are usually configuration files. Configuration files or 'dotfiles', often begin with a dot. For example, .bash_profile stores your bash profile settings, .bashrc stores your bash settings, etc. Thus, the tradition of dot-files was born.
+
+Jose's personal [dotfiles repo](https://github.com/josemoreno90/mydotfiles).
+
+Meisha's personal [dotfiles repo](https://github.com/Meisha04/Mydotfiles).
